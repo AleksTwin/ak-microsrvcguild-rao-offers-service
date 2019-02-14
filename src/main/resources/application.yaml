@@ -1,0 +1,9 @@
+server:
+    port: 8080
+
+loyalty-service:
+  host: "http://localhost:8082"
+  uri: "/v1/loyalty"
+discount-service:
+  host: "http://localhost:8081"
+  uri: "/v1/discounts"
